@@ -185,7 +185,7 @@ let encap = (function() {
     });
 
 
-    /* Validation */
+    /* Check the valid format of the email address */
 
     function mailvalid() {
         clearTimeout(flashingColor);
